@@ -36,7 +36,9 @@ use App\Livewire\Users;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+/*This should let me see my progress but first I need to create the class
+Route::get('/dev/parking-create-view', \App\Livewire\ParkingLot\Create::class)
+    ->name('dev.parking.create.view');*/
 // Prefijo configurable del proyecto: /p/<slug>
 $PROJECT_SLUG = 'qp';
 $PROJECT_ROUTE_PREFIX = 'qp.';

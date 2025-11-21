@@ -17,7 +17,8 @@
                             <label for="email">Email</label>
                             <div class="input-group">
                                 <span class="input-group-text" id="basic-addon1">
-                                    {{-- PARCHE TEMPORAL: Inyección directa de clase FA Solid --}}
+                                    {{-- Note: I just put this here because x-icon isnt working DONT TOUCH Ill fix it --}}
+                                    {{-- And yes Ill do the same everywhere else until I can fix it --}}
                                     <i class="fa-solid fa-envelope icon icon-xs text-gray-600" aria-hidden="true" role="img"></i> 
                                 </span>
                                 <input wire:model.lazy="email" type="email" 
@@ -34,7 +35,6 @@
                                 <label for="password">Password</label>
                                 <div class="input-group">
                                     <span class="input-group-text" id="basic-addon2">
-                                        {{-- PARCHE TEMPORAL: Inyección directa de clase FA Solid --}}
                                         <i class="fa-solid fa-lock icon icon-xs text-gray-600" aria-hidden="true" role="img"></i> 
                                     </span>
                                     <input wire:model.lazy="password" type="password" placeholder="password"
@@ -61,9 +61,6 @@
                             <button type="submit" class="btn btn-primary">Sign in</button>
                         </div>
                     </form>
-                    
-                    {{-- Bloque de Login Social ELIMINADO por decisión de proyecto. --}}
-                    
                     <div class="d-flex justify-content-center align-items-center mt-4">
                         <span class="fw-normal">
                             Not registered?

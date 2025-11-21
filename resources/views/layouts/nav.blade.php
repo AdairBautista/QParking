@@ -1,7 +1,7 @@
 <nav class="navbar navbar-dark navbar-theme-primary px-4 col-12 d-md-none">
     <a class="navbar-brand me-lg-5" href="{{ route('qp.dashboard.index') }}">
-        <img class="navbar-brand-dark" src="{{ asset('assets/img/brand/qparking-light.svg') }}" alt="Logo de QParking" /> 
-        <img class="navbar-brand-light" src="{{ asset('assets/img/brand/qparking-dark.svg') }}" alt="Logo de QParking" />
+        <img class="navbar-brand-dark" src="{{ asset('assets/img/brand/qparking-light.svg') }}" alt="QParking" /> 
+        <img class="navbar-brand-light" src="{{ asset('assets/img/brand/qparking-dark.svg') }}" alt="QParking" />
     </a>
     <div class="d-flex align-items-center">
         <button class="navbar-toggler d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">

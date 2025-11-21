@@ -15,7 +15,7 @@ class Authenticate extends Middleware
     protected function redirectTo($request)
     {
         if (! $request->expectsJson()) {
-            return route(config('proj.route_name_prefix', 'proj') . '.auth.login');
+            return route( 'qp.auth.login');
         }
     }
 }
