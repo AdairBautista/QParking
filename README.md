@@ -8,13 +8,13 @@ Sistema de gestión modular diseñado para la administración eficiente de estac
 
 Este proyecto sigue una arquitectura Modular basada en **Laravel MVC** (Model-View-Controller) con un enfoque en interactividad Full-Stack a través de Livewire.
 
-| Componente | Tecnología | Versión Estándar (MP-V3.0) |
-| :--- | :--- | :--- |
-| **Backend** | Laravel Framework | [cite_start]12.x [cite: 156] |
-| **Lenguaje** | PHP | [cite_start]8.2.x [cite: 161] |
-| **Frontend UI** | Blade + Bootstrap 5 | [cite_start]5.3.x (Volt Theme) [cite: 177, 578] |
-| **Interactividad**| Livewire + Alpine.js | [cite_start]Estándar [cite: 578] |
-| **DB Design** | MySQL / PostgreSQL | [cite_start]Modelado por MBD-V5.0 [cite: 149] |
+| Componente | Tecnología |
+| :--- | :--- |
+| **Backend** | Laravel Framework |
+| **Lenguaje** | PHP | 
+| **Frontend UI** | Blade + Bootstrap 5 |
+| **Interactividad**| Livewire + Alpine.js |
+| **DB Design** | MySQL / PostgreSQL |
 
 
 ### **Guía de Instalación Rápida**
